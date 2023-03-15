@@ -59,10 +59,10 @@
                       "type": "string"
                     },
                     "metricsEnabled": {
-                      "type": "bool"
+                      "type": "string"
                     },
                     "logsEnabled": {
-                      "type": "bool"
+                      "type": "string"
                     },
                     "profileName": {
                       "type": "string"
@@ -160,7 +160,7 @@
           }
         },
         "metricsEnabled": {
-          "type": "Boolean",
+          "type": "String",
           "metadata": {
             "displayName": "Enable metrics",
             "description": "Whether to enable metrics stream to the Log Analytics workspace - True or False"
@@ -172,7 +172,7 @@
           "defaultValue": "True"
         },
         "logsEnabled": {
-          "type": "Boolean",
+          "type": "String",
           "metadata": {
             "displayName": "Enable logs",
             "description": "Whether to enable logs stream to the Log Analytics workspace - True or False"
